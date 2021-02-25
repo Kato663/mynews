@@ -17,6 +17,7 @@ class ProfileController extends Controller
     public function edit(){
     	return view('admin.prohile.edit');
     }
+    
     public function update(){
     	return redirect('admin/profile/edit');
     }
