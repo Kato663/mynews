@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome');mv
 });
 Route::group(['prefix'=>'admin'],function(){
 	Route::get('profile/create','Admin\ProfileController@add');
